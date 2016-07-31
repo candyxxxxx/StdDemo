@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+
+    <string name="home">HOME</string>
+    <string name="detail">DETAILS</string>
+    <string name="discover">Discover</string>
+    <string name="shop">商店(Fragment嵌套)</string>
+    <string name="login">Login</string>
+    <string name="system">System</string>
+    <string name="swipe">侧滑返回Sample</string>
+    <string name="go_swipe_back">SwipeBackActivity+Fragment</string>
+    <string name="go_swipe_back_f">SwipeBackFragment</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_share">Share</string>
+    <string name="recommend">Recommand</string>
+    <string name="hot">Hot</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_transition">image_transition</string>
+    <string name="press_again_exit">Press again to exit</string>
+    <string name="send">Send</string>
+</resources>
