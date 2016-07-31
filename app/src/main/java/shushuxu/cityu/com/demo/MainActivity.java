@@ -5,9 +5,12 @@ import android.os.Bundle;
 import me.yokeyword.fragmentation.anim.DefaultHorizontalAnimator;
 import me.yokeyword.fragmentation.anim.FragmentAnimator;
 import shushuxu.cityu.com.demo.Base.BaseActivity;
+import shushuxu.cityu.com.demo.RecognitionAct.RecogActivity;
 import shushuxu.cityu.com.demo.UI.Fragment.MainFragment;
 
 public class MainActivity extends BaseActivity {
+
+    private RecogActivity recogActivity = new RecogActivity(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +20,8 @@ public class MainActivity extends BaseActivity {
         if (savedInstanceState == null) {
             loadRootFragment(R.id.fl_container, MainFragment.newInstance());
         }
+
+        recogActivity.startRecogAcitivity();
     }
 
     @Override
